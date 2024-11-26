@@ -1,0 +1,17 @@
+@import '../../../../app/styles/index.css';
+
+.datePicker {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 224px;
+  width: 100%;
+  background-color: var(--color-white);
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  padding: 14px 8px;
+}
+
+.datePickerHide {
+  display: none;
+}

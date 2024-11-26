@@ -1,0 +1,51 @@
+.calendarItem {
+  border-radius: 8px;
+  padding: 8px 8px;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.calendarItemLeft {
+  display: flex;
+  align-items: center;
+}
+
+.calendarItemRight {
+  height: 16px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.calendarItemTitle {
+  font-size: 12px;
+}
+
+.calendarItem:hover {
+  background-color: #f6f7f8;
+}
+
+.calendarItem:hover .calendarItemButton {
+  display: flex;
+}
+
+.calendarItemButton {
+  display: none;
+  border: none;
+  background-color: transparent;
+}
+
+.removeItemContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.removeItemControl {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 8px;
+}

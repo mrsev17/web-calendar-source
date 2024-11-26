@@ -1,0 +1,22 @@
+.wrapperDateField {
+  width: 100%;
+}
+
+.dateInputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.newEventWrapperInput {
+  width: 100%;
+}
+
+.datepickerWrapper {
+  z-index: 99;
+  max-width: 240px;
+  position: absolute;
+  top: 48px;
+  left: 30px;
+}

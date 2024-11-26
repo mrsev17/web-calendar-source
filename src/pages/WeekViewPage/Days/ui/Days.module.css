@@ -1,0 +1,10 @@
+.eventsList {
+  position: relative;
+}
+
+.cell {
+  width: 139px;
+  height: 84px;
+  border-right: 1px solid #dedfe5;
+  border-bottom: 1px solid #dedfe5;
+}

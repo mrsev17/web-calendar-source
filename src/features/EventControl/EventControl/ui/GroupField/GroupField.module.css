@@ -1,0 +1,15 @@
+.calendarIconArrow {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}
+
+.calendar {
+  display: flex;
+  gap: 16px;
+}
+
+.calendarSelect {
+  width: 100%;
+  position: relative;
+}

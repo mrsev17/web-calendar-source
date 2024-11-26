@@ -1,0 +1,61 @@
+@import '../../../../app/styles/index.css';
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.calendarHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.calendarDayOfWeek {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+  color: var(--color-black);
+}
+
+.calendarContent {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+
+.calendarDayItem {
+  text-align: center;
+  cursor: pointer;
+}
+
+.calendarDayNumber:hover {
+  color: var(--color-white);
+  background-color: var(--color-green);
+}
+
+.calendarDayNumber {
+  display: flex;
+  justify-content: center;
+  width: 24px;
+  height: 22px;
+  font-size: 12px;
+  color: var(--color-black);
+  line-height: 22px;
+  padding: 2px;
+  border-radius: 8px;
+}
+
+.today {
+  color: white;
+  background-color: var(--color-green);
+  border-radius: 8px;
+}
+
+.anotherMonth {
+  pointer-events: none;
+  opacity: 0.5;
+  background-color: transparent !important;
+}

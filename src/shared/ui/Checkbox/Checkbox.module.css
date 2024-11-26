@@ -1,0 +1,41 @@
+@import '../../../app/styles/index.css';
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkboxWrapper {
+  cursor: pointer;
+  position: relative;
+  width: 12px;
+  height: 12px;
+}
+
+.input {
+  opacity: 0;
+  margin: 0;
+  height: 12px;
+  width: 12px;
+}
+
+.checkboxSquare {
+  border-radius: 2px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 1px solid var(--color-black);
+}
+
+.label {
+  color: var(--color-black);
+}
+
+.wrapperIcon {
+  position: absolute;
+  top: -2px;
+  left: 0;
+}

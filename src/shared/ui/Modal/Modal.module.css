@@ -1,0 +1,54 @@
+@import '../../../app/styles/index.css';
+
+.modalWrapper {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 16px 50px 0px rgba(0, 0, 0, 0.24);
+  background-color: var(--color-white);
+}
+
+.modalTitleClose {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--color-grey);
+  margin-bottom: 16px;
+}
+
+.modalTitle {
+  text-transform: capitalize;
+  color: var(--color-black);
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.modalClose {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.modalHide {
+  display: none !important;
+}
+.modalCrud,
+.modalControl {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.modalCrudButton {
+  display: flex;
+  background-color: transparent;
+  border: none;
+}

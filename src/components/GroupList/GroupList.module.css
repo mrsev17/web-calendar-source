@@ -1,0 +1,74 @@
+@import '../../app/styles/index.css';
+
+.calendarList {
+  background-color: var(--color-white);
+  padding: 14px 8px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.calendarListHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.calendarListTitle {
+  color: var(--color-black);
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.calendarAddNew {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  padding: 0;
+}
+
+.calendarListContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.calendarItem {
+  border-radius: 8px;
+  padding: 8px 8px;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.calendarItemLeft {
+  display: flex;
+  align-items: center;
+}
+
+.calendarItemRight {
+  height: 16px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.calendarItem:hover {
+  background-color: #f6f7f8;
+}
+
+.calendarItem:hover .calendarItemButton {
+  display: flex;
+}
+
+.calendarItemButton {
+  display: none;
+  border: none;
+  background-color: transparent;
+}
+
+.calendarItemTitle {
+  font-size: 12px;
+}

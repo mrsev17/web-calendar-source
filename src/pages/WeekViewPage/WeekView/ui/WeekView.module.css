@@ -1,0 +1,56 @@
+@import './../../../../app/styles/index.css';
+
+.weekPage {
+  background-color: var(--color-white);
+  border-radius: 8px;
+  max-width: 1050px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.weekPageHeader {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  box-shadow: 0px 1px 2px 0px rgb(222, 223, 229);
+}
+
+.emptyCell {
+  max-width: 68px;
+  width: 100%;
+  border-top: 1px solid #dedfe5;
+  border-left: 1px solid #dedfe5;
+  border-top-left-radius: 8px;
+}
+
+.weekDays {
+  display: flex;
+  width: 100%;
+  border-top: 1px solid #dedfe5;
+  border-right: 1px solid #dedfe5;
+  border-top-right-radius: 8px;
+}
+
+.weekDaySub {
+  color: var(--color-black);
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.weekPageTime {
+  display: flex;
+  border-bottom-right-radius: 8px;
+}
+
+.weekPageTimeTitles {
+  width: 70px;
+  border-left: 1px solid #dedfe5;
+  border-right: 1px solid #dedfe5;
+  border-bottom: 1px solid #dedfe5;
+  border-bottom-left-radius: 8px;
+}
+
+.cellsWrapper {
+  display: flex;
+  justify-content: space-between;
+}

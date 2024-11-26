@@ -1,0 +1,12 @@
+.hourItem {
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.hourItemSub {
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+}

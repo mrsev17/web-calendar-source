@@ -1,0 +1,27 @@
+@import '../../../../app/styles/index.css';
+
+.option {
+  cursor: pointer;
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 20px;
+  color: var(--color-black);
+}
+
+.option:first-child {
+  border-radius: 6px 6px 0 0;
+}
+
+.option:last-child {
+  border-radius: 0 0 6px 6px;
+}
+
+.option:hover {
+  background-color: var(--color-secondary-grey);
+}
+
+.selectedItem {
+  background-color: var(--color-primary-selected);
+}

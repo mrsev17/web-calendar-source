@@ -1,0 +1,35 @@
+@import '../../../../app/styles/index.css';
+
+.datePickerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.datePickerMonth {
+  display: block;
+  font-weight: 700;
+  line-height: 22px;
+  color: var(--color-black);
+}
+
+.selectMonth {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.datePickerNextMonth,
+.datePickerPrevMonth {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 18px;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+}

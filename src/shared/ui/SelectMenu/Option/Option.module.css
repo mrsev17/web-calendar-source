@@ -1,0 +1,21 @@
+@import '../../../../app/styles/index.css';
+
+.optionWrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.optionWrapper:hover {
+  background-color: var(--color-secondary-grey);
+}
+
+.option {
+  width: 100%;
+  cursor: pointer;
+  line-height: 20px;
+  padding: 8px 8px;
+}
+
+.optionSelected {
+  background-color: var(--color-primary-selected) !important;
+}

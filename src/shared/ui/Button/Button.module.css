@@ -1,0 +1,93 @@
+@import '../../../app/styles/index.css';
+
+.button {
+  cursor: pointer;
+  border: none;
+  line-height: 20px;
+  border-radius: 8px;
+  padding: 7px 9px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: 0.4s ease-in-out;
+  min-height: 36px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+
+.primary {
+  border: 1px solid var(--color-green);
+  background-color: var(--color-green);
+  color: var(--color-white);
+}
+
+.primaryDisable {
+  pointer-events: none;
+  filter: brightness(0.5);
+}
+
+.primary:hover {
+  background-color: var(--color-dark-green);
+  box-shadow: 0px 2px 2px 0px #5ce17140;
+}
+
+.primaryHover {
+  background-color: var(--color-dark-green);
+  box-shadow: 0px 2px 2px 0px #5ce17140;
+}
+
+.primary:active {
+  background-color: var(--color-active-green);
+}
+
+.primaryActive {
+  background-color: var(--color-active-green);
+  pointer-events: none;
+}
+
+.secondary {
+  border: 1px solid var(--color-light-grey);
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.secondaryDisable {
+  pointer-events: none;
+  background-color: var(--color-secondary-disabled);
+  border: 1px solid var(--color-secondary-disabled);
+}
+
+.secondary:hover {
+  box-shadow: 0px 1px 2px 0px #45454540;
+  background-color: var(--color-grey);
+}
+
+.secondaryHover {
+  box-shadow: 0px 1px 2px 0px #45454540;
+  background-color: var(--color-grey);
+}
+
+.secondary:active {
+  background-color: var(--color-secondary-active);
+  border: 1px solid var(--color-secondary-active);
+}
+
+.secondaryActive {
+  background-color: var(--color-secondary-active);
+  border: 1px solid var(--color-secondary-active);
+  pointer-events: none;
+}
+
+.buttonContent {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.widthFull {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}

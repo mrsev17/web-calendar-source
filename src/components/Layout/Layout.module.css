@@ -1,0 +1,15 @@
+@import '../../app/styles/index.css';
+
+.calendar {
+  padding-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aside {
+  max-width: 240px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

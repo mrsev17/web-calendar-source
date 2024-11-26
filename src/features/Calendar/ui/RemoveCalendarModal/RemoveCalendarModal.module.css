@@ -1,0 +1,16 @@
+.removeItemContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.removeItemControl {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 8px;
+}
+
+.removeItemText {
+  line-height: 22px;
+}

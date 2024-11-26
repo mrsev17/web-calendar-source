@@ -1,0 +1,51 @@
+@import '../../app/styles/index.css';
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--color-white);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerContentLeft {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.headerContentRight {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.username {
+  color: var(--color-black);
+}
+
+.userControl {
+  cursor: pointer;
+  background-color: #80d78d;
+  color: var(--color-white);
+  font-weight: 700;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}

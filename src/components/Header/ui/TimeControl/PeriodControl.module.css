@@ -1,0 +1,17 @@
+.periodControl {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.periodControlButtons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.periodTitle {
+  font-weight: 700;
+  line-height: 22px;
+  color: var(--color-black);
+}

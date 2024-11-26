@@ -1,0 +1,42 @@
+.event {
+  cursor: pointer;
+  top: 120px;
+  position: absolute;
+  background-color: aqua;
+  height: 80px;
+  width: 100%;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  display: flex;
+  transition: 0.5s ease-in-out;
+}
+
+.event:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.eventAccent {
+  width: 4px;
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.eventContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 4px;
+}
+
+.eventTitle {
+  font-size: 14px;
+  text-align: left;
+  color: #323749;
+}
+
+.eventTime {
+  font-size: 12px;
+  text-align: left;
+  color: #323749;
+}

@@ -1,0 +1,32 @@
+.newEvent {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.datePickWrapper {
+  position: relative;
+}
+
+.newEventInputTime {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.newEventWrapperInput {
+  width: 100%;
+  max-width: 240px;
+}
+
+.wrapperDateInput {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.save {
+  display: flex;
+  justify-content: end;
+}

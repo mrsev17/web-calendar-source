@@ -1,0 +1,16 @@
+.durationWrapper {
+  margin-left: 30px;
+  display: flex;
+  gap: 18px;
+}
+
+.durationSelect {
+  position: relative;
+  display: flex;
+}
+
+.durationIconArrow {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}

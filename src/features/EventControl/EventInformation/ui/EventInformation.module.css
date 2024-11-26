@@ -1,0 +1,44 @@
+.eventInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.eventTitle,
+.eventTime,
+.eventCalendar,
+.eventDescription {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.title {
+  color: #323749;
+  text-align: start;
+  font-size: 24px;
+  line-height: 20px;
+}
+
+.time {
+  color: #323749;
+  text-align: start;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.color {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+}
+
+.calendar {
+  display: flex;
+  gap: 12px;
+}
+
+.description {
+  color: #323749;
+  line-height: 20px;
+}

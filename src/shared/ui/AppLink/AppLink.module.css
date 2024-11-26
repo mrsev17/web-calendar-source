@@ -1,0 +1,34 @@
+@import '../../../app/styles/index.css';
+
+.link {
+  color: var(--color-green);
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 20px;
+  transition: 0.4s ease-in-out;
+}
+
+.link:hover {
+  color: var(--color-dark-green);
+  text-decoration: underline;
+}
+
+.linkHover {
+  color: var(--color-dark-green);
+  text-decoration: underline;
+}
+
+.link:active {
+  color: var(--color-active-green);
+  text-decoration: underline;
+}
+
+.linkActive {
+  color: var(--color-active-green);
+  text-decoration: underline;
+}
+
+.linkDisable {
+  color: var(--color-dark-disable);
+  pointer-events: none;
+}
