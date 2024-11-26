@@ -67,3 +67,11 @@ node_modules/
 
 # dataconnect generated files
 .dataconnect
+
+.DS_Store
+.idea
+.env
+**/.idea/
+**/node_modules/
+!task-3.8/frontend/.env
+!task-3.8/backend/.env
